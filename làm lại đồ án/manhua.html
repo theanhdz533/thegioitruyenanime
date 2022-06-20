@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="file:///D://VKU/WEB/l%C3%A0m%20l%E1%BA%A1i%20%C4%91%E1%BB%93%20%C3%A1n/assets/manhua_style.css">
+	<link rel="stylesheet" type="text/css" href="file:///D://VKU/WEB/l%C3%A0m%20l%E1%BA%A1i%20%C4%91%E1%BB%93%20%C3%A1n/assets/font/themify-icons/themify-icons.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="shortcut icon" type="image/png" href="file:///D://VKU/WEB/%C4%90%E1%BB%93%20%C3%81n/assets/logo/logo6-removebg-preview.png">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.6.0.js"
+			integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="crossorigin="anonymous"></script>
+	<title>Manhua</title>
+</head>
+<body class="preloading">
+	
+	<!-- header -->
+	<div id="header">
+		<!-- menu reponsive -->
+		<div class="menu_rep">
+			<button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+				<i class="ti-align-justify"></i>
+			</button>
+			
+			<div class="dropdown-menu dropdown-menu-right" style="background-color: #177BD9;">
+				<ul>
+					<li><a href="file:///D:/VKU/WEB/l%C3%A0m%20l%E1%BA%A1i%20%C4%91%E1%BB%93%20%C3%A1n/index.html">Trang Chủ</a></li>
+					<li><a href="file:///D:/VKU/WEB/l%C3%A0m%20l%E1%BA%A1i%20%C4%91%E1%BB%93%20%C3%A1n/toptruyen.html">Top Truyện</a></li>
+					<li>
+						<a href="file:///D:/VKU/WEB/l%C3%A0m%20l%E1%BA%A1i%20%C4%91%E1%BB%93%20%C3%A1n/theloai.html">Thể Loại
+							<!-- icon dropdown -->
+							<b class="icon_dropdown ti-arrow-circle-down"></b>
+						</a>
+
+						<ul class="sub_nav_rep">
+							<li><a href="file:///D:/VKU/WEB/l%C3%A0m%20l%E1%BA%A1i%20%C4%91%E1%BB%93%20%C3%A1n/managa.html">Manga</a>
+							</li>
+							<li><a href="file:///D:/VKU/WEB/l%C3%A0m%20l%E1%BA%A1i%20%C4%91%E1%BB%93%20%C3%A1n/manhwa.html">Manhwa</a>
+							</li>
+							<li style="background-color: #039CB8;"><a href="file:///D:/VKU/WEB/l%C3%A0m%20l%E1%BA%A1i%20%C4%91%E1%BB%93%20%C3%A1n/manhua.html">Manhua</a>
+							</li>
+						</ul>
+						<li><a href="file:///D:/VKU/WEB/l%C3%A0m%20l%E1%BA%A1i%20%C4%91%E1%BB%93%20%C3%A1n/lichsu.html">Lịch Sử</a></li>
+						<li><a href="file:///D:/VKU/WEB/l%C3%A0m%20l%E1%BA%A1i%20%C4%91%E1%BB%93%20%C3%A1n/dangnhap.html">Đăng Nhập</a></li>
+					</ul>
+				</div>
+			</div>
+			<ul>
+				<li><a href="file:///D:/VKU/WEB/l%C3%A0m%20l%E1%BA%A1i%20%C4%91%E1%BB%93%20%C3%A1n/index.html">Trang Chủ</a></li>
+				<li><a href="file:///D:/VKU/WEB/l%C3%A0m%20l%E1%BA%A1i%20%C4%91%E1%BB%93%20%C3%A1n/toptruyen.html">Top Truyện</a></li>
+				<!-- submenu -->
+				<li>
+					<a href="file:///D:/VKU/WEB/l%C3%A0m%20l%E1%BA%A1i%20%C4%91%E1%BB%93%20%C3%A1n/theloai.html">Thể Loại
+						<!-- icon dropdown -->
+						<b class="icon_dropdown ti-arrow-circle-down"></b>
+					</a>
+
+					<ul class="sub_nav">
+						<li><a href="file:///D:/VKU/WEB/l%C3%A0m%20l%E1%BA%A1i%20%C4%91%E1%BB%93%20%C3%A1n/managa.html">Manga</a>
+						</li>
+						<li><a href="file:///D:/VKU/WEB/l%C3%A0m%20l%E1%BA%A1i%20%C4%91%E1%BB%93%20%C3%A1n/manhwa.html">Manhwa</a>
+						</li>
+						<li style="background-color: #039CB8;"><a href="file:///D:/VKU/WEB/l%C3%A0m%20l%E1%BA%A1i%20%C4%91%E1%BB%93%20%C3%A1n/manhua.html">Manhua</a>
+						</li>
+					</ul>
+				</li>
+				<li><a href="file:///D:/VKU/WEB/l%C3%A0m%20l%E1%BA%A1i%20%C4%91%E1%BB%93%20%C3%A1n/lichsu.html">Lịch Sử</a></li>
+				<li><a href="file:///D:/VKU/WEB/l%C3%A0m%20l%E1%BA%A1i%20%C4%91%E1%BB%93%20%C3%A1n/dangnhap.html">Đăng Nhập</a></li>
+			</ul>
+			<div class="search">
+				<input type="text" name="search" size="30" maxlength="40" placeholder="Tìm truyện ở đây nhé!(^.^)" style="height: 35px;border-radius: 100px;border: 10px;">
+				<button style="height: 35px; width: 100px;" class="but_search">Tìm Kiếm</button>
+			</div>
+			<div class="search_rep" style="margin-left: -40px;">
+				<input type="text" name="search" size="30" maxlength="40" placeholder="Tìm truyện ở đây nhé!(^.^)" style="height: 35px;border-radius: 100px;border: 10px;">
+				<button style="height: 35px; width: 100px; border-radius: 100px;" class="but_search">Tìm Kiếm</button>
+			</div>
+
+		</div>
+
+
+
+		<span class="truyen_de_cu">
+			<div style="margin-top: 25px;">
+				<b class="ti-angle-double-right" style="font-size: 20px;"></b>
+				Manhua
+			</div>
+		</span>
+		<div id="main">
+			<div class="slide">
+
+			</div>
+			<!-- hang 1 -->
+			<div class="row1">
+				<div class="card card1" style="margin-left: 10px;">
+					<a href="file:///D:/VKU/WEB/l%C3%A0m%20l%E1%BA%A1i%20%C4%91%E1%BB%93%20%C3%A1n/truyen1.html"><img src="http://st.nettruyenco.com/data/comics/84/dau-la-dai-luc-5.jpg" alt="picture">
+					</a>
+					<div class="container">
+						<h4 style="font-size: 30px; text-align: center; margin-top: 0px;"><b>Đấu la đại lục</b></h4>
+					</div>
+				</div>
+
+
+
+				<div class="card card2" style="margin-left: 10px;">
+					<a href="file:///D:/VKU/WEB/l%C3%A0m%20l%E1%BA%A1i%20%C4%91%E1%BB%93%20%C3%A1n/truyen1.html"><img src="http://st.nettruyenco.com/data/comics/228/ta-lap-hau-cung-tai-tay-du-ky.jpg" alt="picture"  >
+					</a>
+					<div class="container">
+						<h4 style="font-size: 30px; text-align: center; margin-top: 0px;"><b>Hậu tây du ký</b></h4>
+					</div>
+				</div>
+
+
+				<div class="card card3" style="margin-left: 10px;">
+					<a href="file:///D:/VKU/WEB/l%C3%A0m%20l%E1%BA%A1i%20%C4%91%E1%BB%93%20%C3%A1n/truyen1.html"><img src="http://st.nettruyenco.com/data/comics/154/nghich-thien-ta-than.jpg" alt="picture"  >
+					</a>
+					<div class="container">
+						<h4 style="font-size: 30px; text-align: center; margin-top: 0px;"><b>Nghịch thiên tà</b></h4>
+					</div>
+				</div>
+
+
+
+				<div class="card card4" style="margin-left: 10px;">
+					<a href="file:///D:/VKU/WEB/l%C3%A0m%20l%E1%BA%A1i%20%C4%91%E1%BB%93%20%C3%A1n/truyen1.html"><img src="http://st.nettruyenco.com/data/comics/198/chua-te-tam-gioi.jpg" alt="picture"  >
+					</a>
+					<div class="container">
+						<h4 style="font-size: 30px; text-align: center; margin-top: 0px;"><b>Chúa tể tam giới</b></h4>
+					</div>
+				</div>
+
+
+
+				<div class="card card5" style="margin-left: 10px;">
+					<a href="file:///D:/VKU/WEB/l%C3%A0m%20l%E1%BA%A1i%20%C4%91%E1%BB%93%20%C3%A1n/truyen1.html"><img src="http://st.nettruyenco.com/data/comics/131/dai-vuong-tha-mang.jpg" alt="picture"  >
+					</a>
+					<div class="container">
+						<h4 style="font-size: 30px; text-align: center; margin-top: 0px;"><b>Đại vương tha mạng</b></h4>
+					</div>
+				</div>
+
+				<div class="card card6" style="margin-left: 10px;">
+					<a href="file:///D:/VKU/WEB/l%C3%A0m%20l%E1%BA%A1i%20%C4%91%E1%BB%93%20%C3%A1n/truyen1.html"><img src="http://st.nettruyenco.com/data/comics/23/doc-thu-vu-y.jpg" alt="picture"  >
+					</a>
+					<div class="container">
+						<h4 style="font-size: 30px; text-align: center; margin-top: 0px;"><b>Độc thủ vu y</b></h4>
+					</div>
+				</div>
+
+			</div>
+
+			<!-- row2 -->
+			
+			<div class="row2" style="padding-top: 30px;">
+
+				<!-- truyen -->
+				<div class="card card1" style="margin-left: 10px;">
+					<a href="file:///D:/VKU/WEB/l%C3%A0m%20l%E1%BA%A1i%20%C4%91%E1%BB%93%20%C3%A1n/truyen1.html"><img src="http://st.nettruyenco.com/data/comics/127/toan-chuc-phap-su.jpg" alt="picture"  >
+					</a>
+					<div class="container">
+						<h4 style="font-size: 30px; text-align: center; margin-top: 0px;"><b>Toàn chức pháp sư</b></h4>
+					</div>
+				</div>
+
+				<div class="card card2" style="margin-left: 10px;">
+					<a href="file:///D:/VKU/WEB/l%C3%A0m%20l%E1%BA%A1i%20%C4%91%E1%BB%93%20%C3%A1n/truyen1.html"><img src="http://st.nettruyenco.com/data/comics/80/di-toc-trung-sinh.jpg" alt="picture"  >
+					</a>
+					<div class="container">
+						<h4 style="font-size: 30px; text-align: center; margin-top: 0px;"><b>Dị tộc trùng sinh</b></h4>
+					</div>
+				</div>
+
+				<div class="card card3" style="margin-left: 10px;">
+					<a href="file:///D:/VKU/WEB/l%C3%A0m%20l%E1%BA%A1i%20%C4%91%E1%BB%93%20%C3%A1n/truyen1.html"><img src="http://st.nettruyenco.com/data/comics/70/bat-dau-voi-chi-ton-dan-dien.jpg" alt="picture"  >
+					</a>
+					<div class="container">
+						<h4 style="font-size: 30px; text-align: center; margin-top: 0px;"><b>Chí tôn đan điền</b></h4>
+					</div>
+				</div>
+
+				<div class="card card4" style="margin-left: 10px;">
+					<a href="file:///D:/VKU/WEB/l%C3%A0m%20l%E1%BA%A1i%20%C4%91%E1%BB%93%20%C3%A1n/truyen1.html"><img src="http://st.nettruyenco.com/data/comics/166/ngao-thi-thien-dia.jpg" alt="picture"  >
+					</a>
+					<div class="container">
+						<h4 style="font-size: 30px; text-align: center; margin-top: 0px;"><b>Ngạo thị thiên địa</b></h4>
+					</div>
+				</div>
+
+				<div class="card card5" style="margin-left: 10px;">
+					<a href="file:///D:/VKU/WEB/l%C3%A0m%20l%E1%BA%A1i%20%C4%91%E1%BB%93%20%C3%A1n/truyen1.html"><img src="http://st.nettruyenco.com/data/comics/199/van-toc-chi-kiep.jpg" alt="picture"  >
+					</a>
+					<div class="container">
+						<h4 style="font-size: 30px; text-align: center; margin-top: 0px;"><b>Vạn tộc chi kiếp</b></h4>
+					</div>
+				</div>
+
+				<div class="card card6" style="margin-left: 10px;">
+					<a href="file:///D:/VKU/WEB/l%C3%A0m%20l%E1%BA%A1i%20%C4%91%E1%BB%93%20%C3%A1n/truyen1.html"><img src="http://st.nettruyenco.com/data/comics/202/chua-te-chi-lo.jpg" alt="picture"  >
+					</a>
+					<div class="container">
+						<h4 style="font-size: 30px; text-align: center; margin-top: 0px;"><b>Chúa tể chi lộ</b></h4>
+					</div>
+				</div>
+
+			</div>
+
+
+
+
+
+		</div>
+
+	</div>
+
+	<!-- on top -->
+	<button onclick="topFunction()" id="on_top" title="Go to top"><b class="ti-arrow-up"></b></button>
+	<!-- footer -->
+	<div id="footer">
+		<img src="file:///D://VKU/WEB/l%C3%A0m%20l%E1%BA%A1i%20%C4%91%E1%BB%93%20%C3%A1n/assets/image/Capture-removebg-preview.png">
+		<div class="infor">
+			<footer>
+
+				<!-- Footer Links -->
+				<!-- Grid row -->
+				<div class="row">
+					<!-- Grid column -->
+
+
+
+					<div class="list">
+						<!--Lien he -->
+						<h5>Liên hệ</h5>
+						<ul class="list-unstyled">
+							<li>
+								<a href="#!">Email: admin123@vku.udn.vn</a>
+							</li>
+							<li>
+								<a href="#!">Fanpage: Thegioitruyenanime </a>
+							</li>
+							<li>
+								<a href="#!">Hotline: 0961735552</a>
+							</li>
+						</ul>
+
+					</div>
+
+					<div class="list">
+						<!--Lien he -->
+						<h5>Điều khoản sử dụng</h5>
+						<ul class="list-unstyled">
+							<li>
+								<a href="#!">Giới thiệu</a>
+							</li>
+							<li>
+								<a href="#!">Bản quyền</a>
+							</li>
+							<li>
+								<a href="#!">Chính sách phát triển</a>
+							</li>
+						</ul>
+
+					</div>
+					<!-- Grid column -->
+
+					<!-- Grid column -->
+
+
+					<!-- Links -->
+
+
+
+
+				</div>
+				<!-- Grid column -->
+
+
+
+				<!-- Copyright -->
+				<div class="footer-copyright text-center py-3">©2022 Copyright:
+					<a href="/" style="color:white;"> Thegioitruyenanime.com</a>
+				</div>
+				<!-- Copyright -->
+
+			</footer>
+		</div>
+		<!-- loading -->
+		<div class="load">
+			<img src="https://i.pinimg.com/originals/71/3a/32/713a3272124cc57ba9e9fb7f59e9ab3b.gif" style="height:40%">
+
+		</div>
+	</div>
+
+
+	<!-- scrpit -->
+	<script type="text/javascript">
+		// loading
+     $(window).on('load',function(){
+      $('body').removeClass('preloading');
+      $('.load').delay(900).fadeOut('fast');
+   });
+		// hieu ung chuot
+		 var colours = new Array("#F781BE", "#F781BE", "#F781BE", "#F781BE", "#F781BE"); // warna untuk border-top, border-right, border-bottom, border-left dan background gelembung
+    var bubbles = 100; // jumlah maksmal gelembung
+    var x = ox = 400;
+    var y = oy = 300;
+    var swide = 800;
+    var shigh = 600;
+    var sleft = sdown = 0;
+    var bubb = new Array();
+    var bubbx = new Array();
+    var bubby = new Array();
+    var bubbs = new Array();
+    window.onload = function() {
+    	if (document.getElementById) {
+    		var rats, div;
+    		for (var i = 0; i < bubbles; i++) {
+    			rats = createDiv("3px", "3px");
+    			rats.style.visibility = "hidden";
+    			div = createDiv("auto", "auto");
+    			rats.appendChild(div);
+    			div = div.style;
+    			div.top = "1px";
+    			div.left = "0px";
+    			div.bottom = "1px";
+    			div.right = "0px";
+    			div.borderLeft = "1px solid " + colours[3];
+    			div.borderRight = "1px solid " + colours[1];
+    			div = createDiv("auto", "auto");
+    			rats.appendChild(div);
+    			div = div.style;
+    			div.top = "0px";
+    			div.left = "1px";
+    			div.right = "1px";
+    			div.bottom = "0px"
+    			div.borderTop = "1px solid " + colours[0];
+    			div.borderBottom = "1px solid " + colours[2];
+    			div = createDiv("auto", "auto");
+    			rats.appendChild(div);
+    			div = div.style;
+    			div.left = "1px";
+    			div.right = "1px";
+    			div.bottom = "1px";
+    			div.top = "1px";
+    			div.backgroundColor = colours[4];
+    			div.opacity = 0.5;
+    			if (document.all) div.filter = "alpha(opacity=50)";
+    			document.body.appendChild(rats);
+    			bubb[i] = rats.style;
+    		}
+    		set_scroll();
+    		set_width();
+    		bubble();
+    	}
+    }
+
+    function bubble() {
+    	var c;
+    	if (x != ox || y != oy) {
+    		ox = x;
+    		oy = y;
+    		for (c = 0; c < bubbles; c++)
+    			if (!bubby[c]) {
+    				bubb[c].left = (bubbx[c] = x) + "px";
+    				bubb[c].top = (bubby[c] = y) + "px";
+    				bubb[c].width = "3px";
+    				bubb[c].height = "3px"
+    				bubb[c].visibility = "visible";
+    				bubbs[c] = 3;
+    				break;
+    			}
+    		}
+    		for (c = 0; c < bubbles; c++)
+    			if (bubby[c]) update_bubb(c);
+    		setTimeout("bubble()", 40);
+    	}
+
+    	function update_bubb(i) {
+    		if (bubby[i]) {
+    			bubby[i] -= bubbs[i] / 2 + i % 2;
+    			bubbx[i] += (i % 5 - 2) / 5;
+    			if (bubby[i] > sdown && bubbx[i] > 0) {
+    				if (Math.random() < bubbs[i] / shigh * 2 && bubbs[i] ++ < 8) {
+    					bubb[i].width = bubbs[i] + "px";
+    					bubb[i].height = bubbs[i] + "px";
+    				}
+    				bubb[i].top = bubby[i] + "px";
+    				bubb[i].left = bubbx[i] + "px";
+    			} else {
+    				bubb[i].visibility = "hidden";
+    				bubby[i] = 0;
+    				return;
+    			}
+    		}
+    	}
+    	document.onmousemove = mouse;
+
+    	function mouse(e) {
+    		set_scroll();
+    		y = (e) ? e.pageY : event.y + sleft;
+    		x = (e) ? e.pageX : event.x + sdown;
+    	}
+    	window.onresize = set_width;
+
+    	function set_width() {
+    		if (document.documentElement && document.documentElement.clientWidth) {
+    			swide = document.documentElement.clientWidth;
+    			shigh = document.documentElement.clientHeight;
+    		} else if (typeof(self.innerHeight) == "number") {
+    			swide = self.innerWidth;
+    			shigh = self.innerHeight;
+    		} else if (document.body.clientWidth) {
+    			swide = document.body.clientWidth;
+    			shigh = document.body.clientHeight;
+    		} else {
+    			swide = 800;
+    			shigh = 600;
+    		}
+    	}
+    	window.onscroll = set_scroll;
+
+    	function set_scroll() {
+    		if (typeof(self.pageYOffset) == "number") {
+    			sdown = self.pageYOffset;
+    			sleft = self.pageXOffset;
+    		} else if (document.body.scrollTop || document.body.scrollLeft) {
+    			sdown = document.body.scrollTop;
+    			sleft = document.body.scrollLeft;
+    		} else if (document.documentElement && (document.documentElement.scrollTop || document.documentElement.scrollLeft)) {
+    			sleft = document.documentElement.scrollLeft;
+    			sdown = document.documentElement.scrollTop;
+    		} else {
+    			sdown = 0;
+    			sleft = 0;
+    		}
+    	}
+
+    	function createDiv(height, width) {
+    		var div = document.createElement("div");
+    		div.style.position = "absolute";
+    		div.style.height = height;
+    		div.style.width = width;
+    		div.style.overflow = "hidden";
+    		return (div);
+    	}
+        	//on top
+        	window.onscroll = function() {scrollFunction()};
+
+        	function scrollFunction() {
+        		if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        			document.getElementById("on_top").style.display = "block";
+        		} else {
+        			document.getElementById("on_top").style.display = "none";
+        		}
+        	}
+
+        	function topFunction() {
+        		document.body.scrollTop = 0;
+        		document.documentElement.scrollTop = 0;
+        	}
+        </script>
+
+    </body>
+    </html>

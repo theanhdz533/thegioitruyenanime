@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="file:///D://VKU/WEB/l%C3%A0m%20l%E1%BA%A1i%20%C4%91%E1%BB%93%20%C3%A1n/assets/font/themify-icons/themify-icons.css">
+  <link rel="shortcut icon" type="image/png" href="file:///D://VKU/WEB/%C4%90%E1%BB%93%20%C3%81n/assets/logo/logo6-removebg-preview.png">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="crossorigin="anonymous"></script>
+  <style>
+
+    body {font-family: Arial, Helvetica, sans-serif;}
+/* The Modal (background) */
+.modal {
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: fixed;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+/*loading*/
+.load{
+ height: 100%;
+ width: 100%;
+ position: fixed;
+ left: 0;
+ top: 0;
+ background-color: #FCFAFC;
+ z-index: 10000;
+}
+.load > img{
+ margin-top: 200px;
+ margin-left: 39%;
+}
+#back{
+  margin-left: -24px;
+}
+#next{
+  margin-left: 790px;
+}
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 500px) {
+ .load > img{
+   margin-top: 200px;
+   margin-left: 40px;
+ }
+ .container img{
+  margin-left: 30px;
+  width: 100%;
+}
+#back{
+  margin-left: 0px;
+}
+#next{
+  margin-left: 0px;
+}
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+}
+}
+.container img{
+  margin-left: 30px;
+  width: 50%;
+
+}
+
+.mySlides {
+  display:none
+}
+
+</style>
+</head>
+<body class="preloading" >
+  <!-- loading -->
+  <div class="load">
+    <img src="https://i.pinimg.com/originals/ef/8b/bd/ef8bbd4554dedcc2fd1fd15ab0ebd7a1.gif" style="height:40%">
+  </div>
+  
+
+  <div class="imgcontainer">
+    <span onclick="window.location.replace('file:///D:/VKU/WEB/l%C3%A0m%20l%E1%BA%A1i%20%C4%91%E1%BB%93%20%C3%A1n/index.html')" class="close" title="Close Modal" >&times;</span>
+  </div>
+
+ 
+  <div class="container" style="background-color:#f1f1f1">
+   <h1 style="color:#0DACFF ;">Tập 2</h1>
+    <img src="file:///D://VKU/WEB/l%C3%A0m%20l%E1%BA%A1i%20%C4%91%E1%BB%93%20%C3%A1n/assets/truyen2/2.PNG">
+    <img src="file:///D://VKU/WEB/l%C3%A0m%20l%E1%BA%A1i%20%C4%91%E1%BB%93%20%C3%A1n/assets/truyen2/3.PNG">
+    <img src="file:///D://VKU/WEB/l%C3%A0m%20l%E1%BA%A1i%20%C4%91%E1%BB%93%20%C3%A1n/assets/truyen2/4.PNG">
+    <img src="file:///D://VKU/WEB/l%C3%A0m%20l%E1%BA%A1i%20%C4%91%E1%BB%93%20%C3%A1n/assets/truyen2/5.PNG">
+    <img src="file:///D://VKU/WEB/l%C3%A0m%20l%E1%BA%A1i%20%C4%91%E1%BB%93%20%C3%A1n/assets/truyen2/6.PNG">
+    <img src="file:///D://VKU/WEB/l%C3%A0m%20l%E1%BA%A1i%20%C4%91%E1%BB%93%20%C3%A1n/assets/truyen2/7.PNG">
+    <img src="file:///D://VKU/WEB/l%C3%A0m%20l%E1%BA%A1i%20%C4%91%E1%BB%93%20%C3%A1n/assets/truyen2/8.PNG">
+    <img src="file:///D://VKU/WEB/l%C3%A0m%20l%E1%BA%A1i%20%C4%91%E1%BB%93%20%C3%A1n/assets/truyen2/9.PNG">
+    <img src="file:///D://VKU/WEB/l%C3%A0m%20l%E1%BA%A1i%20%C4%91%E1%BB%93%20%C3%A1n/assets/truyen2/10.PNG">
+    <img src="file:///D://VKU/WEB/l%C3%A0m%20l%E1%BA%A1i%20%C4%91%E1%BB%93%20%C3%A1n/assets/truyen2/11.PNG">
+    <img src="file:///D://VKU/WEB/l%C3%A0m%20l%E1%BA%A1i%20%C4%91%E1%BB%93%20%C3%A1n/assets/truyen2/12.PNG">
+    <img src="file:///D://VKU/WEB/l%C3%A0m%20l%E1%BA%A1i%20%C4%91%E1%BB%93%20%C3%A1n/assets/truyen2/13.PNG">
+    <img src="file:///D://VKU/WEB/l%C3%A0m%20l%E1%BA%A1i%20%C4%91%E1%BB%93%20%C3%A1n/assets/truyen2/14.PNG">
+    <img src="file:///D://VKU/WEB/l%C3%A0m%20l%E1%BA%A1i%20%C4%91%E1%BB%93%20%C3%A1n/assets/truyen2/15.PNG">
+    <img src="file:///D://VKU/WEB/l%C3%A0m%20l%E1%BA%A1i%20%C4%91%E1%BB%93%20%C3%A1n/assets/truyen2/16.PNG">
+  </div>
+</div>
+<div class="w3-content" style="max-width:800px">
+  <img class="mySlides" src="" style="width:100%">
+  <img class="mySlides" src="" style="width:100%">
+  <img class="mySlides" src="" style="width:100%">
+</div>
+
+<div class="w3-center">
+  <div class="w3-section">
+    <button class="w3-button w3-light-grey" onclick="window.location.replace('file:///D:/VKU/WEB/l%C3%A0m%20l%E1%BA%A1i%20%C4%91%E1%BB%93%20%C3%A1n/truyen1.html')" id="back"><i class="ti-control-backward"></i>Tập Trước</button>
+    <button class="w3-button w3-light-grey" onclick="window.location.replace('file:///D:/VKU/WEB/l%C3%A0m%20l%E1%BA%A1i%20%C4%91%E1%BB%93%20%C3%A1n/truyen2.html')" id="next">Tập Sau<i class="ti-control-forward"></i></button>
+  </div>
+  <button class="w3-button demo" onclick="window.location.replace('file:///D:/VKU/WEB/l%C3%A0m%20l%E1%BA%A1i%20%C4%91%E1%BB%93%20%C3%A1n/truyen1.html')" >1</button> 
+  <button class="w3-button demo" onclick="window.location.replace('file:///D:/VKU/WEB/l%C3%A0m%20l%E1%BA%A1i%20%C4%91%E1%BB%93%20%C3%A1n/truyen2.html')" style=" background-color: red; font-weight: bold;">2</button> 
+</div>
+
+<script type="text/javascript">
+    // loading
+    $(window).on('load',function(){
+      $('body').removeClass('preloading');
+      $('.load').delay(1500).fadeOut('fast');
+    });
+    </script>
+  </body>
+  </html>

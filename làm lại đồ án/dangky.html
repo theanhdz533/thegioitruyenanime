@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" type="image/png" href="file:///D://VKU/WEB/%C4%90%E1%BB%93%20%C3%81n/assets/logo/logo6-removebg-preview.png">
+  <link rel="stylesheet" type="text/css" href="file:///D://VKU/WEB/l%C3%A0m%20l%E1%BA%A1i%20%C4%91%E1%BB%93%20%C3%A1n/assets/dangky_style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="crossorigin="anonymous"></script>
+  <title>Đăng ký</title>
+</head>
+<body>
+
+
+
+
+  <div id="id01" class="modal">
+
+    <form class="modal-content animate" action="file:///D:/VKU/WEB/l%C3%A0m%20l%E1%BA%A1i%20%C4%91%E1%BB%93%20%C3%A1n/dangnhap.html" method="post">
+      <div class="imgcontainer">
+        
+        <img src="https://cdn.pixabay.com/photo/2020/07/14/13/07/icon-5404125_1280.png" alt="Avatar" class="avatar">
+      </div>
+
+      <div class="container">
+         <label for="uname"><b>Nhập email</b></label>
+        <input type="text" placeholder="Nhập email" name="uname" required> 
+        
+        <label for="uname"><b>Tài khoản</b></label>
+        <input type="text" placeholder="Nhập tài khoản" name="uname" required>
+
+        <label for="psw"><b>Mật khẩu</b></label>
+        <input type="password" placeholder="Nhập mật khẩu" name="psw" required>
+
+        <label for="psw"><b>Nhập lại mật khẩu</b></label>
+        <input type="password" placeholder="Nhập lại mật khẩu" name="psw" required>
+        
+        <button type="submit">ĐĂNG KÝ</button>
+        <button><a href="file:///D:/VKU/WEB/l%C3%A0m%20l%E1%BA%A1i%20%C4%91%E1%BB%93%20%C3%A1n/dangnhap.html" class="sign_in">ĐĂNG NHẬP</a></button>
+        <label>
+          <input type="checkbox" checked="checked" name="remember"> Nhớ mật khẩu
+        </label>
+      </div>
+
+      <div class="container" style="background-color:#f1f1f1">
+        <button type="button" class="cancelbtn"><a href="file:///D:/VKU/WEB/l%C3%A0m%20l%E1%BA%A1i%20%C4%91%E1%BB%93%20%C3%A1n/index.html">Về trang chủ</a></button>
+        <span class="psw"> <a href="file:///D:/VKU/WEB/l%C3%A0m%20l%E1%BA%A1i%20%C4%91%E1%BB%93%20%C3%A1n/quenmatkhau.html">Quên mật khẩu?</a></span>
+        </span>
+      </div>
+    </form>
+  </div>
+
+  
+   <!-- loading -->
+    <div class="load">
+      <img src="https://i.pinimg.com/originals/71/3a/32/713a3272124cc57ba9e9fb7f59e9ab3b.gif" style="height:40%">
+
+    </div>
+  <script type="text/javascript">
+    // loading
+     $(window).on('load',function(){
+      $('body').removeClass('preloading');
+      $('.load').delay(900).fadeOut('fast');
+   });
+  </script>
+</body>
+</html>
